@@ -1,7 +1,11 @@
+:root
 body {
     color: #434455;
     font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
+
 }
+:root
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -86,10 +90,12 @@ body {
 
 .btm:hover {
     color: #404BBF;
+    background-color: #404BBF;
 }
 
 .btm:focus {
     color: #404BBF;
+    background-color: #404BBF;
 }
 
 .tip {
