@@ -1,4 +1,16 @@
-:root
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-title-color: #2E2F42;  
+
+
+}
+
 body {
     color: #434455;
     font-family: "Roboto", sans-serif;
@@ -22,7 +34,7 @@ body {
 }
 
 .studio {
-    color: #2e2f42;
+    color: var(--main-title-color);
 }
 
 .list {
@@ -34,7 +46,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--main-title-color);
     font-style: normal;
 }
 
@@ -66,7 +78,7 @@ body {
 }
 
 .sec {
-    background-color: #2e2f42;
+    background-color: var(--main-title-color);
 }
 
 .caption {
@@ -103,7 +115,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--main-title-color);
 }
 
 .para {
@@ -119,7 +131,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
+    color: var(--main-title-color);
 }
 
 .section-four {
@@ -132,7 +144,7 @@ body {
 }
 
 .footer {
-    background-color: #2e2f42;
+    background-color: var(--main-title-color);
 }
 
 .studio-two {
